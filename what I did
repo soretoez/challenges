@@ -46,4 +46,5 @@ int main(){
     cout << vector_2d[1][0] <<" "<< vector_2d[1][1] <<endl;
     
 /* line 46 was where I went wrong I had done [0][2] and [0][3]
-   so it output whatever junk was in them locations*/
+   so it output whatever junk was in them locations
+   also forgot the .at's on 45 and 46 but it still worked*/
